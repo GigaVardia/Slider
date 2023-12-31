@@ -50,3 +50,23 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.text1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 24px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.text2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 32px;
+    background-color: blue;
+    border-radius: 12px;
+    padding: 24px;
+}

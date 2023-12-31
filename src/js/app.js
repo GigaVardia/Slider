@@ -39,6 +39,20 @@ export class App {
             sliderItem.style.background = 'url(' + page.background + ')';
 
             sliderContainer.appendChild(sliderItem);
+
+            const text1 = page.text1;
+            const text2 = page.text2;
+
+            const text1El = document.createElement('span');
+            text1El.innerText = text1;
+            text1El.classList.add('text1');
+
+            const text2El = document.createElement('span');
+            text2El.innerText = text2;
+            text2El.classList.add('text2')
+
+            sliderItem.appendChild(text1El);
+            sliderItem.appendChild(text2El);
         })
     }
 }
