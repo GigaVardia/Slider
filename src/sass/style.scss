@@ -4,6 +4,10 @@
     --app-height: 100%;
 }
 
+* {
+    user-select: none;
+}
+
 html,
 body {
     background-color: black;
@@ -35,6 +39,10 @@ body {
     flex: 1;
     height: 100%;
     transition: transform 0.5s;
+}
+
+.slider-item {
+    -webkit-transform: translate3d(0, 0, 0);
 }
 
 .slider-footer {

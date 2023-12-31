@@ -30,6 +30,7 @@ export class App {
         pages.forEach((page) => {
             const sliderItem = document.createElement('div');
 
+            sliderItem.classList.add('slider-item');
             sliderItem.style.position = 'relative';
             sliderItem.style.minWidth = '100%';
             sliderItem.style.width = '100%';
