@@ -8,6 +8,10 @@ const appHeight = () => {
 window.addEventListener('resize', appHeight)
 appHeight()
 
+document.ontouchmove = function (event) {
+    event.preventDefault();
+}
+
 window.app = new App({
     generalData: {
         "lang": "GE",
