@@ -11,7 +11,7 @@ module.exports = {
 
     output: {
         filename: "[name].bundle.js",
-        path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "public"),
         clean: true,
         assetModuleFilename: "assets/img/[name][ext][query]", // without this assets used in js/css will go to main dir
     },
