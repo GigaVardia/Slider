@@ -48,6 +48,8 @@ export class App {
 
             const circle1BgImage = document.createElement('img');
             circle1BgImage.src = 'https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg';
+            circle1BgImage.width = 200;
+            circle1BgImage.height = 200;
             circle1BgImage.classList.add('circle1Bg');
             circle1.appendChild(circle1BgImage);
 
