@@ -65,6 +65,30 @@ window.app = new App({
             text2: 'Text2',
             pageName: 'page8',
             background: '/assets/img/2.svg'
+        },
+        {
+            text1: 'Text1',
+            text2: 'Text2',
+            pageName: 'page9',
+            background: '/assets/img/1.svg'
+        },
+        {
+            text1: 'Text1',
+            text2: 'Text2',
+            pageName: 'page10',
+            background: '/assets/img/2.svg'
+        },
+        {
+            text1: 'Text1',
+            text2: 'Text2',
+            pageName: 'page11',
+            background: '/assets/img/1.svg'
+        },
+        {
+            text1: 'Text1',
+            text2: 'Text2',
+            pageName: 'page12',
+            background: '/assets/img/2.svg'
         }
     ]
 })
