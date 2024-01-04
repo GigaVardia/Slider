@@ -43,15 +43,24 @@ export class App {
             const text1 = page.text1;
             const text2 = page.text2;
 
+            const circle1 = document.createElement('div');
+            circle1.classList.add('circle1');
+
+            const circle1BgImage = document.createElement('img');
+            circle1BgImage.src = 'https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg';
+            circle1BgImage.classList.add('circle1Bg');
+            circle1.appendChild(circle1BgImage);
+
             const text1El = document.createElement('span');
             text1El.innerText = text1;
             text1El.classList.add('text1');
+            circle1.appendChild(text1El);
 
             const text2El = document.createElement('span');
             text2El.innerText = text2;
             text2El.classList.add('text2')
 
-            sliderItem.appendChild(text1El);
+            sliderItem.appendChild(circle1);
             sliderItem.appendChild(text2El);
         })
     }
