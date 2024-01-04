@@ -51,9 +51,12 @@ export class App {
             circle1BgImage.classList.add('circle1Bg');
             circle1.appendChild(circle1BgImage);
 
-            const text1El = document.createElement('span');
+            const text1El = document.createElement('div');
             text1El.innerText = text1;
             text1El.classList.add('text1');
+            const text1test = document.createElement('span');
+            text1test.innerText = 'test';
+            text1El.appendChild(text1test);
             circle1.appendChild(text1El);
 
             const text2El = document.createElement('span');
