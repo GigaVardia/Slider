@@ -54,6 +54,8 @@ body {
 }
 
 .text1 {
+    position: relative;
+    z-index: 999;
     font-size: 24px;
     border-radius: 12px;
     padding: 24px;
